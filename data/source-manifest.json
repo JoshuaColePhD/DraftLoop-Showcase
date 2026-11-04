@@ -1,0 +1,30 @@
+{
+  "source_url": "https://apcentral.collegeboard.org/media/pdf/ap25-apc-english-language-q3-set-1.pdf",
+  "source_title": "2025 AP English Language and Composition, Question 3, Set 1: released samples and scoring commentary",
+  "human_rubric_rows": {
+    "3A": [
+      1,
+      4,
+      1
+    ],
+    "3B": [
+      1,
+      3,
+      0
+    ],
+    "3C": [
+      1,
+      1,
+      0
+    ]
+  },
+  "prepared_input_sha256": "c813ca58d07f1adc351fffad98fa7e1cb286d0568cf5e824531b557b63862223",
+  "provenance": "Numeric results transcribed from the private DraftLoop recorded evaluation report, inspected at application source revision 52e00c3f6ddaeeb2fc1063f8ec5c376ffdb4b32a. This revision is an audit reference, not a recorded inference-run commit.",
+  "recorded_run_date": "2026-11-03",
+  "weight_digest_recorded_for_original_experiment": false,
+  "raw_model_traces_in_showcase": false,
+  "redistributed_essay_text": false,
+  "limitations": "Three examples; no subgroup labels, uncertainty study, cost benchmark, or operational validity claim.",
+  "prepared_input_checksum_verified_date": "2026-11-04",
+  "prepared_input_verification": "Downloaded the official PDF and ran the included preparation script with local pdftotext; the resulting SHA-256 matched the recorded input. No inference rerun was performed."
+}

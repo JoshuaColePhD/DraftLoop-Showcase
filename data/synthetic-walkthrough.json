@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "included_in_evaluation": false,
+  "human_score": null,
+  "prompt_text": "What is the value of a selfie?",
+  "draft": "A selfie can preserve a meaningful moment when people use it to remember a shared experience rather than to compete for attention.\n\nFor example, a family photograph taken after a graduation records who was present and how they felt. Years later, the image helps the graduate connect that achievement with the people who supported it. This matters because memory is easier to revisit when it has a specific place and face.\n\nSome selfies encourage people to compare appearances or interrupt an experience. However, the problem is the purpose of the photograph, not the camera facing its owner. Taking one picture and returning to the people nearby keeps the record from replacing the moment.",
+  "capture_date": "2026-11-04",
+  "capture_timezone": "America/Chicago",
+  "capture_kind": "Actual standalone app screenshot after local inference; not a generated UI illustration.",
+  "provider": "ollama",
+  "model": "llama3.2:3b",
+  "mode": "CLASS_25",
+  "ollama_version": "0.32.1",
+  "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "application_base_revision": "52e00c3f6ddaeeb2fc1063f8ec5c376ffdb4b32a",
+  "displayed_score": 5,
+  "displayed_rows": {
+    "A": 1,
+    "B": 3,
+    "C": 1
+  },
+  "displayed_heuristic_range": [
+    3,
+    6
+  ],
+  "next_sentence": "This paragraph argues that selfies can record who was present and how they felt at a specific time.",
+  "interpretation": "Observed product demonstration only. No human ground truth, no reliability estimate. The current digest is not evidence of the weights used on November 3."
+}
