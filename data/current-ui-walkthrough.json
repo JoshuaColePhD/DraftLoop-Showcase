@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "simulated_feedback": true,
+  "included_in_evaluation": false,
+  "human_score": null,
+  "capture_date": "2026-11-05",
+  "capture_timezone": "America/Chicago",
+  "interface": "Current React Writing Coach at /student/coach",
+  "mode": "REACT_APP_UI_ONLY=true",
+  "application_revision": "53de268b8cd85331b35f3b40135887adedf7ad14",
+  "prompt_text": "Write an essay that argues your position on the extent to which communities should preserve, remove, or reinterpret controversial public monuments. Use specific evidence from your reading, observation, or experience to develop your argument.",
+  "draft": "Communities should judge monuments by what they teach now, not only by what they once celebrated. A city can preserve evidence of its past without requiring a public square to continue honoring every person represented there. Reinterpretation should be the first option when context can make the history more honest; removal is justified when the monument still functions mainly as a celebration of harm.\n\nFor example, a town could move a disputed statue from its courthouse steps into a museum exhibit. Visitors could study the original inscription beside records explaining who commissioned it and whose experiences it excluded. That change preserves the object while making the decision to honor it available for criticism. The location matters because a courthouse speaks for the community in a way that an exhibit about a past decision does not.\n\nSome residents may experience removal as an attempt to erase their families. Public discussion and access to the historical record therefore matter. Listening to those concerns should shape the process, but it should not give any single group permanent control over the symbols everyone must share.",
+  "interpretation": "Browser-generated simulated feedback and canned coach responses; no model inference. Displayed ranges and rubric rings are interface examples, not evaluation measurements."
+}
