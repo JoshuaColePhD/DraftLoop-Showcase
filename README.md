@@ -6,9 +6,9 @@ DraftLoop helps AP English Language students develop an argument and decide what
 
 [See the product walkthrough](docs/WALKTHROUGH.md) · [Read the engineering case study](docs/CASE_STUDY.md) · [Recalculate the recorded results](docs/REPRODUCING.md)
 
-![Actual local DraftLoop interface with an original synthetic draft, rubric rows, and revision guidance](demo/assets/local-coach.jpg)
+<a href="demo/assets/local-coach-demo.gif"><img src="demo/assets/local-coach-demo.gif" alt="DraftLoop local walkthrough: enter synthetic writing, inspect rubric feedback, and ask for a next revision" width="640"></a>
 
-*Actual local app, November 4, 2026. Original synthetic writing; the displayed 5/6 has no human reference score and is excluded from evaluation.*
+*Edited local walkthrough, November 5, 2026, using Ollama `llama3.2:3b`. Original synthetic writing; the displayed 5/6 has no human reference score and is excluded from evaluation. [Recording details](demo/RECORDING.md).*
 
 ## What I built
 

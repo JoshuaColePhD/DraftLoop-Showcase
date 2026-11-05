@@ -2,6 +2,12 @@
 
 Follow a writer from an initial argument to a specific revision decision.
 
+<a href="../demo/assets/local-coach-demo.gif"><img src="../demo/assets/local-coach-demo.gif" alt="Edited local DraftLoop walkthrough using original synthetic writing" width="640"></a>
+
+*Recorded November 5, 2026 with local Ollama `llama3.2:3b`; edited pauses are not a latency measurement. The synthetic score is excluded from evaluation. [Recording details](../demo/RECORDING.md).*
+
+The earlier still below documents the separate November 4 capture.
+
 ![Actual DraftLoop interface showing the original synthetic selfie draft, rubric rows, and a suggested revision](../demo/assets/local-coach.jpg)
 
 *Actual local app, November 4, 2026, using Ollama `llama3.2:3b`. Original synthetic writing; the displayed 5/6 has no human reference score and is excluded from evaluation. The 3–6 range is a heuristic, not a calibrated confidence interval.*
