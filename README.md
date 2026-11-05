@@ -16,9 +16,11 @@ DraftLoop helps AP English Language students develop an argument and decide what
 - A writing workspace connecting thesis, evidence, and sophistication feedback to a next revision, with SQLite storage for classroom feedback.
 - An evaluation runner comparing scores with human readers, checking the expected model, and preserving previous reports when a run fails.
 
-## Results
+## Engineering decisions
 
-In a three-essay experiment, DraftLoop initially returned incomplete scoring responses. Requiring the scoring fields and allowing longer responses recovered all three complete responses. Exact agreement with human scores remained 0%.
+**Measure completeness and accuracy separately.** In a three-essay experiment, an 80-token response limit truncated feedback before the rubric fields appeared. Requiring structured fields and raising the limit to 512 tokens recovered complete responses; exact score agreement remained 0%. The repair exposed a separate scoring problem. [Failure analysis](docs/CASE_STUDY.md)
+
+## Results
 
 | Recorded sample result | Original | Fixed |
 | --- | ---: | ---: |
@@ -32,7 +34,7 @@ Three examples cannot establish scoring reliability. The [case study](docs/CASE_
 
 Essay and prompt → model feedback → Python scoring rules → rubric score, revision guidance, and review reasons.
 
-The model proposes feedback; the application checks and scores it before presenting it to the writer. The [architecture](docs/CASE_STUDY.md#architecture-and-responsibility) shows how this connects to evaluation and classroom feedback storage.
+Python checks the model feedback and computes the score. [Architecture and responsibility](docs/CASE_STUDY.md#architecture-and-responsibility).
 
 ## Explore further
 
