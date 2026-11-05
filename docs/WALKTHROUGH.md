@@ -3,7 +3,7 @@
 This walkthrough shows the current React Writing Coach at `/student/coach`,
 using original synthetic writing and the built-in preview mode.
 
-<a href="../demo/assets/local-coach-demo.gif"><img src="../demo/assets/local-coach-demo.gif" alt="Current DraftLoop React workspace: feedback, coach, and progress panels" width="640"></a>
+<a href="../demo/assets/current-coach-demo.gif"><img src="../demo/assets/current-coach-demo.gif" alt="Current DraftLoop React workspace: feedback, coach, and progress panels" width="640"></a>
 
 *Recorded November 5, 2026. Feedback and coach replies are explicitly simulated;
 no model calls were made. Displayed ranges and rubric rings are interface examples,
