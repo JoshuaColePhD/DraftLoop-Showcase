@@ -6,7 +6,7 @@ DraftLoop helps AP English Language students develop an argument and decide what
 
 [See the product walkthrough](docs/WALKTHROUGH.md) · [Read the engineering case study](docs/CASE_STUDY.md) · [Recalculate the recorded results](docs/REPRODUCING.md)
 
-<a href="demo/assets/local-coach-demo.gif"><img src="demo/assets/local-coach-demo.gif" alt="Current DraftLoop React workspace showing synthetic writing, simulated coaching, and progress" width="640"></a>
+<a href="demo/assets/current-coach-demo.gif"><img src="demo/assets/current-coach-demo.gif" alt="Current DraftLoop React workspace showing synthetic writing, simulated coaching, and progress" width="640"></a>
 
 *Current React interface, recorded November 5, 2026. Original synthetic writing with clearly labeled simulated feedback; no model calls. Displayed scores are interface examples and are excluded from evaluation. [Recording details](demo/RECORDING.md).*
 

@@ -22,4 +22,4 @@ The previous standalone capture used local Ollama; that does not describe this
 current React preview. Its [archived still](assets/local-coach.jpg) and
 [metadata](../data/synthetic-walkthrough.json) remain available for provenance.
 
-[Watch the current GIF](assets/local-coach-demo.gif) · [Current still](assets/current-coach.jpg) · [Project overview](../README.md)
+[Watch the current GIF](assets/current-coach-demo.gif) · [Current still](assets/current-coach.jpg) · [Project overview](../README.md)
