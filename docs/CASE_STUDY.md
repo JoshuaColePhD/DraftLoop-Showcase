@@ -49,7 +49,7 @@ The private evaluation client now defaults to that provider/model/mode. It check
 - Local inference avoids hosted API charges but requires storage, memory, compute, and time. This experiment measured no latency, cost, or classroom capacity.
 - The classroom interface uses seeded demo data and lacks production authentication. It is not ready for operational grading.
 
-The screenshot documents a separate November 4 demonstration with original synthetic writing. Its displayed 5/6 has no human reference score and is excluded from this evaluation.
+The [archived standalone screenshot](../demo/assets/local-coach.jpg) documents a separate November 4 demonstration with original synthetic writing. Its displayed 5/6 has no human reference score and is excluded from this evaluation. The [current React UI walkthrough](WALKTHROUGH.md) uses explicitly simulated preview feedback and is also excluded.
 
 ## Ownership and development approach
 

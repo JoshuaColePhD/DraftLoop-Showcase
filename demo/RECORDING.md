@@ -1,23 +1,25 @@
-# Local GIF walkthrough
+# Current React UI walkthrough
 
-Captured November 5, 2026 from the actual standalone DraftLoop application on
-localhost. The recording shows entering the [original synthetic essay](../data/synthetic-walkthrough.json),
-receiving rubric feedback, and selecting **Next AP Point** to request revision advice.
-No student writing or released AP essay text is shown.
+Captured November 5, 2026 from the actual React Writing Coach at `/student/coach`.
+This replaces the earlier GIF of the older standalone `web/` interface.
 
-- Provider/model: installed local Ollama `llama3.2:3b`, `CLASS_25` mode.
-- The native app code and scoring rules were not changed for the recording.
-- A temporary local SQLite database was used; no cloud database or hosted model was used.
-- Displayed rubric: A 1/1, B 3/4, C 1/1; total 5/6. No human reference score exists.
-- The displayed 3–6 range is a heuristic, not a calibrated confidence interval.
-- Frames were captured at 1280×720 and encoded as a looping 960×540 GIF using FFmpeg.
-- The clip is edited from five real interface states. Reading pauses are inserted and
-  model wait time is compressed; this is not an inference-speed measurement.
-- This capture is separate from the November 4 screenshot and the November 3
-  three-essay experiment. No evaluation result or historical fixture was changed.
+- Source: existing `frontend/` implementation; application revision is recorded in
+  [capture metadata](../data/current-ui-walkthrough.json).
+- Mode: `REACT_APP_UI_ONLY=true`. Feedback is generated in the browser and coach
+  replies are canned text, labeled **Simulated** in the interface.
+- Input: original synthetic monument essay; no student writing or released AP essay.
+  The fictional student identity and assignment come from existing preview data.
+- Workflow: inspect Feedback, switch to Coach, ask about commentary, save a version,
+  and inspect Progress.
+- The 2–4 projected range and rubric rings are interface examples. They have no
+  human reference and are excluded from all evaluation results.
+- Four real interface states were captured at 1440×900 and encoded as an edited,
+  looping 18-second GIF. Reading pauses are inserted; timing is not a latency measurement.
+- No backend, model call, cloud database, or deployment was used for this recording.
+  Application source and historical evaluation fixtures were not changed.
 
-The same synthetic input can produce different feedback on another run. The model's
-suggestions require writer/teacher judgment; showing a complete response does not
-validate the score or advice.
+The previous standalone capture used local Ollama; that does not describe this
+current React preview. Its [archived still](assets/local-coach.jpg) and
+[metadata](../data/synthetic-walkthrough.json) remain available for provenance.
 
-[Watch the GIF](assets/local-coach-demo.gif) · [Static November 4 capture](assets/local-coach.jpg) · [Project overview](../README.md)
+[Watch the current GIF](assets/local-coach-demo.gif) · [Current still](assets/current-coach.jpg) · [Project overview](../README.md)

@@ -1,27 +1,36 @@
 # DraftLoop: from feedback to a next revision
 
-Follow a writer from an initial argument to a specific revision decision.
+This walkthrough shows the current React Writing Coach at `/student/coach`,
+using original synthetic writing and the built-in preview mode.
 
-<a href="../demo/assets/local-coach-demo.gif"><img src="../demo/assets/local-coach-demo.gif" alt="Edited local DraftLoop walkthrough using original synthetic writing" width="640"></a>
+<a href="../demo/assets/local-coach-demo.gif"><img src="../demo/assets/local-coach-demo.gif" alt="Current DraftLoop React workspace: feedback, coach, and progress panels" width="640"></a>
 
-*Recorded November 5, 2026 with local Ollama `llama3.2:3b`; edited pauses are not a latency measurement. The synthetic score is excluded from evaluation. [Recording details](../demo/RECORDING.md).*
+*Recorded November 5, 2026. Feedback and coach replies are explicitly simulated;
+no model calls were made. Displayed ranges and rubric rings are interface examples,
+excluded from evaluation. [Recording details](../demo/RECORDING.md).*
 
-The earlier still below documents the separate November 4 capture.
+## 1. Work from the assignment
 
-![Actual DraftLoop interface showing the original synthetic selfie draft, rubric rows, and a suggested revision](../demo/assets/local-coach.jpg)
+The assignment panel asks how communities should preserve, remove, or reinterpret
+controversial public monuments. The [original synthetic draft](../data/current-ui-walkthrough.json)
+argues for contextualizing monuments or moving them into a museum where needed.
 
-*Actual local app, November 4, 2026, using Ollama `llama3.2:3b`. Original synthetic writing; the displayed 5/6 has no human reference score and is excluded from evaluation. The 3–6 range is a heuristic, not a calibrated confidence interval.*
+## 2. Inspect feedback and ask the coach
 
-## 1. Draft an argument
+The Feedback panel offers a next revision move. The writer switches to Coach and
+asks how to improve commentary. Preview mode labels its browser-generated feedback
+and canned reply as **Simulated**; these are not judgments from an AI or a human reader.
 
-The writer responds to “What is the value of a selfie?” with a claim about preserving shared memories, a graduation example, and a qualification about distracting comparisons. [Read the synthetic draft and capture details](../data/synthetic-walkthrough.json).
+## 3. Save and inspect progress
 
-## 2. Inspect the rubric feedback
+Save Version retains a local checkpoint. The Progress tab shows rubric rings and
+session history. Its displayed 2–4 range is a simulated example, not a calibrated
+confidence interval or an accuracy result.
 
-The interface shows thesis 1/1, evidence/commentary 3/4, and sophistication 1/1. The writer can inspect each row to decide where to focus. These values combine a model proposal with local Python scoring rules.
+![Current React Writing Coach with simulated progress](../demo/assets/current-coach.jpg)
 
-## 3. Decide on a revision
+[Read the separate scoring case study](CASE_STUDY.md) · [Recalculate recorded metrics](REPRODUCING.md)
 
-The coach focuses on the line of reasoning and suggests: “This paragraph argues that selfies can record who was present and how they felt at a specific time.” The writer should decide whether that sentence adds reasoning or simply repeats the paragraph before using it.
-
-[Read the scoring case study](CASE_STUDY.md) for the separate three-essay evaluation, or follow the [optional local walkthrough instructions](REPRODUCING.md#2-view-the-product-walkthrough) to explore the HTML guide.
+The [archived November 4 standalone-coach screenshot](../demo/assets/local-coach.jpg)
+and its [Ollama capture record](../data/synthetic-walkthrough.json) document the older interface.
+They are separate from this React preview and the three-essay evaluation.
