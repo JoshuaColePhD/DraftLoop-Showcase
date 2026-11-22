@@ -1,5 +1,7 @@
 # DraftLoop
 
+[![CI](https://github.com/JoshuaColePhD/DraftLoop-Showcase/actions/workflows/ci.yml/badge.svg)](https://github.com/JoshuaColePhD/DraftLoop-Showcase/actions/workflows/ci.yml)
+
 **Rubric feedback that gives a student a concrete next revision.**
 
 DraftLoop helps AP English Language students develop an argument and decide what to improve next. Students inspect a six-point rubric snapshot, consider a suggested revision, and discuss the feedback with a teacher. It is a formative coaching prototype; scores still need human judgment.
